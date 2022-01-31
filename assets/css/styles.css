@@ -1,3 +1,11 @@
+.top-section {
+ background-image: url("../../images/3.jpeg");
+ background-repeat: no-repeat;
+ width: 100%;
+ height: inherit;
+ padding-bottom: 30px;
+}
+
 .custom-nav {
   padding-left: 30px;
   padding-right: 30px;
@@ -6,4 +14,268 @@
 .navbar-nav > li {
   padding-left: 30px;
   padding-right: 30px;
+}
+ header {
+   padding-top: 40px;
+ }
+
+.header-text-a {
+  /* font-family: 'Lato', sans-serif; */
+  font-size: 20px;
+  font-weight: bold 600;
+  line-height: 32px;
+  color: #ec5242;
+  color: linear-gradient(45deg, #ec5242, #af4261)
+}
+
+.header-text-b {
+  /* font-family: 'Lato', sans-serif; */
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  font-size: 35px;
+  font-weight: bolder 900;
+  line-height: 50px;
+  color: #ec5242;
+}
+
+.header-tect-c-div {
+  border: 3px solid red;
+  margin: 10px;
+}
+
+.header-text-c {
+  /* font-family: 'Lato', sans-serif; */
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.header-text-d {
+  font-size: 27px;
+  font-weight: bolder 900;
+  color: #42526e;
+}
+
+.header-text-e {
+  font-size: 18px;
+  /* font-weight: bolder 900; */
+  color: #42526e;
+}
+
+.middle-section {
+  background-color: #a9a9a9;
+}
+
+.middle-section-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.middle-section-head h2 {
+  margin-top: 50px;
+}
+
+.middle-section-head hr {
+  width: 30%;
+  color: #ec5242;
+  margin: 15px auto;
+}
+
+.top-program-1 {
+  display: flex;
+  flex-direction: row;
+  /* background-color: blue */
+}
+
+.top-program {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  /* width: 50%; */
+}
+
+.top-program img {
+  width: 50px;
+  height: 50px;
+}
+
+.top-program p {
+  padding: 20px 15px;
+  color: #ec5242;
+}
+
+.top-program-2 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+}
+
+.top-program-2 p {
+  /* padding: 20px 15px; */
+  color: #fff;
+}
+
+.middle-section-container:last-child {
+  padding: 0 40px 0 40px;
+}
+
+#middle-section-btn {
+  margin: 20px 0 40px 0;
+  background-color: #ec5242;
+  text-align: center;
+}
+
+.bottom-section-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-section-head h2 {
+  margin-top: 50px;
+}
+
+.bottom-section-head hr {
+  width: 30%;
+  color: #ec5242;
+  margin: 15px auto;
+}
+
+.top-feature {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-feature-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.top-feature-1 img {
+  width: 100px;
+  height: 120px;
+  box-shadow: -15px -15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.top-feature-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 70%;
+  margin: auto;
+}
+
+.top-feature-2 h4 {
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.top-feature-2 h6 {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.top-feature-2 hr {
+  width: 20%;
+  color: #ec5242;
+  margin: 0;
+}
+
+.top-feature-2 p {
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 10px;
+}
+
+/* CREATING READMORE */
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  /* color: blue; */
+  background-color: #ec5242;
+  text-decoration: underline;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+label:after {
+  content: "more";
+  /* background-color: #ec5242; */
+}
+
+input:checked~label:after {
+  content: "less";
+  /* background-color: #ec5242; */
+}
+
+.inner {
+  max-height: 400px;
+  overflow: hidden;
+  transition: all .3s ease;
+  /* width: 100px; */
+}
+
+input:checked+.inner {
+  max-height: inherit;
+}
+
+.show-more-wrap {
+  margin: 20px 30px 40px 30px;
+}
+
+.show-more {
+  border-radius: 0;
+  /* background-color: #ec5242; */
+  text-align: center;
+  width: 100%;
+}
+
+.patners {
+  background-color: #a9a9a9;
+  height: 400px;
+}
+
+.footer-img {
+  width: 70px;
+  height: 60px;
+}
+
+.foot {
+  /* margin: 5px; */
+  text-align: center;
+}
+
+.foota {
+  margin: 50px 5px 10px 5px;
+  text-align: right;
+}
+
+.footb {
+  margin: 50px 5px 10px 5px;
+  /* text-align: right; */
+}
+
+/* footer section */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width 85%;
+  margin: 20px auto;
 }
