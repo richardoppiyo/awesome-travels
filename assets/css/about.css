@@ -1,8 +1,8 @@
 .top-section {
- background-image: url("../../images/3.jpeg");
- background-repeat: no-repeat;
- height: inherit;
- padding-bottom: 30px;
+  background-image: url("../../images/3.jpeg");
+  background-repeat: no-repeat;
+  height: inherit;
+  padding-bottom: 30px;
 }
 
 .upper-head h3 {
@@ -30,21 +30,20 @@
 }
 
 header {
-   padding-top: 40px;
-   text-align: center;
+  padding-top: 40px;
+  text-align: center;
  }
 
 .header-text-a {
   font-size: 20px;
-  font-weight: bold 600;
+  font-weight: bold;
   line-height: 32px;
   color: #ec5242;
-  color: linear-gradient(45deg, #ec5242, #af4261)
 }
 
 .header-text-b {
   font-size: 35px;
-  font-weight: bolder 900;
+  font-weight: bolder;
   line-height: 50px;
   color: #ec5242;
 }
@@ -106,11 +105,10 @@ header {
   height: 120px;
 }
 
-.top-program-2  img {
+.top-program-2 img {
   height: inherit;
-    background-color: #fff;
+  background-color: #fff;
 }
-
 
 .middle-section-head h2 {
   margin-top: 50px;
@@ -121,7 +119,6 @@ header {
   color: #ec5242;
   margin: 15px auto;
 }
-
 
 .top-program-2b {
   background-image: url(../../images/3.jpeg);
@@ -220,17 +217,17 @@ label:after {
   content: "more";
 }
 
-input:checked~label:after {
+input:checked ~ label:after {
   content: "less";
 }
 
 .inner {
   max-height: 400px;
   overflow: hidden;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
-input:checked+.inner {
+input:checked + .inner {
   max-height: inherit;
 }
 
