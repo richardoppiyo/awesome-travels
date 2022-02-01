@@ -141,7 +141,7 @@ header {
   .social-nav {
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
+    justify-content: flex-end;
     padding-right: 100px;
     background-color: #272a31;
   }
@@ -156,6 +156,11 @@ header {
     color: #fff;
   }
 
+  .inside-desktop-nav ul > * {
+    margin: 0;
+    padding: 5px 0 5px 10px;
+  }
+
   .social-nav > *:hover {
     color: #ec5242;
   }
@@ -165,11 +170,6 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     padding-right: 20px;
-  }
-
-  .inside-desktop-nav ul > * {
-    margin: 0;
-    padding: 5px 0 5px 10px;
   }
 
   .special-list {
@@ -184,7 +184,7 @@ header {
   .desktop-custom-head {
     width: 60%;
     padding-left: 0;
-    margin-left: 180px;;
+    margin-left: 180px;
     padding-right: 90px;
   }
 }
@@ -376,7 +376,7 @@ input:checked + .inner {
     justify-content: center;
     column-gap: 20px;
     margin: 3px;
-    padding: 20px
+    padding: 20px;
   }
 
   .top-program-2 p {
@@ -391,13 +391,13 @@ input:checked + .inner {
   #desktop-middle-section-btn {
     display: flex;
     margin: 20px auto;
-    background-color: #none;
+    background-color: none;
     text-align: center;
     width: 30%;
     color: #fff;
   }
 
-  #desktop-middle-section-btn  a {
+  #desktop-middle-section-btn a {
     color: #fff;
   }
 
