@@ -28,14 +28,14 @@
 
 header {
   padding-top: 40px;
- }
+}
 
 .header-text-a {
   font-size: 20px;
   font-weight: bold;
   line-height: 32px;
   color: #ec5242;
-  }
+}
 
 .header-text-b {
   font-size: 35px;
@@ -221,7 +221,7 @@ label:after {
   content: "more";
 }
 
-input:checked ~ label:after {
+.read-more:checked ~ .show-more:after {
   content: "less";
 }
 

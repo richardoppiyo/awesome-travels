@@ -196,37 +196,6 @@ header {
   margin-top: 10px;
 }
 
-/* CREATING READMORE */
-input[type="checkbox"] {
-  display: none;
-}
-
-label {
-  background-color: #ec5242;
-  text-decoration: underline;
-  margin-top: 10px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-label:after {
-  content: "more";
-}
-
-input:checked ~ label:after {
-  content: "less";
-}
-
-.inner {
-  max-height: 400px;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-input:checked + .inner {
-  max-height: inherit;
-}
-
 .show-more-wrap {
   margin: 20px 30px 40px 30px;
 }
