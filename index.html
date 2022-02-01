@@ -19,6 +19,46 @@
   <body>
 
   <section class="top-section">
+    <section class="desktop-nav">
+      <section class="social-nav">
+        <a href="#"><i class="fab fa-twitter social"></i></a>
+        <a href="#"><i class="fab fa-linkedin social"></i></a>
+        <a href="#">Logout</a>
+        <a href="#">Mypage</a>
+        <a href="#">Korean</a>
+      </section>
+      <section class="desktop-custom-nav">
+        <nav class="navbar navbar-expand-md navbar-light bg-light ml-auto">
+              <a class="navbar-brand custom-nav-brand" href="#">
+                <img src="./images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Bootstrap
+              </a>
+              <div class="collapse navbar-collapse inside-desktop-nav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Program</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Join</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sponsor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item special-list">
+                    <a class="nav-link" href="#">CC Campaign</a>
+                  </li>
+
+                </ul>
+              </div>
+          </nav>
+      </section>
+    </section>
     <nav class="navbar navbar-expand-lg navbar-light custom-nav">
       <button id="show" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
         <span class="navbar-toggler-icon"></span>
@@ -26,8 +66,6 @@
       <button id="hide" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
         <img src="./images/iconcancel.png" alt="">
       </button>
-
-
         <div class="collapse navbar-collapse" id="mynav">
           <ul class="navbar-nav">
             <li class="nav-item active">
@@ -49,7 +87,7 @@
         </div>
       </nav>
 
-      <header class="container-fluid">
+      <header class="container-fluid desktop-custom-head">
         <div class="container">
             <div class="row">
                 <div class="col upper-head">
@@ -80,11 +118,11 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
   <section class="middle-section">
     <div class="container middle-section-container">
         <div class="row">
-            <div class="col-md-6 middle-section-head">
+            <div class="col-md-12 col-lg-12 middle-section-head">
                 <h2>Main Program</h2>
                 <hr>
             </div>
-            <div class="col-md-6 top-program-1">
+            <div class="col-sm-6 col-md-2 col-lg-2 top-program-1">
               <div class="top-program">
                 <img src="./images/icons/exhibition.png" alt="exhibition-image">
                 <p>ABCD</p>
@@ -93,7 +131,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
               </div>
             </div>
-            <div class="col-md-6 top-program-1">
+            <div class="col-sm-6 col-md-2 col-lg-2 top-program-1">
               <div class="top-program">
                 <img src="./images/icons/forum.png" alt="forum-image">
                 <p>ABCD</p>
@@ -102,7 +140,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
               </div>
             </div>
-            <div class="col-md-6 top-program-1">
+            <div class="col-sm-6 col-md-2 col-lg-2 top-program-1">
               <div class="top-program">
                 <img src="./images/icons/ignite.png" alt="ignite-image">
                 <p>ABCD</p>
@@ -111,7 +149,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
               </div>
             </div>
-            <div class="col-md-6 top-program-1">
+            <div class="col-sm-6 col-md-2 col-lg-2 top-program-1">
               <div class="top-program">
                 <img src="./images/icons/lecture.png" alt="lecture-image">
                 <p>ABCD</p>
@@ -120,7 +158,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
               </div>
             </div>
-            <div class="col-md-6 top-program-1">
+            <div class="col-sm-6 col-md-2 col-lg-2 top-program-1">
               <div class="top-program">
                 <img src="./images/icons/workshop.png" alt="workshop-image">
                 <p>ABCD</p>
@@ -133,6 +171,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
         <div class="row" >
               <!-- <button id="middle-section-btn" type="button" class="btn btn-primary">Blue</button> -->
               <button id="middle-section-btn" type="button" class="btn">Join CC Global Summit 2015</button>
+              <button id="desktop-middle-section-btn" type="button" class="btn"><a href="#">SEE THE WHOLE PROGRAM</a></button>
         </div>
     </div>
   </section>
@@ -141,7 +180,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
       <div class="container bottom-section-container">
         <input type="checkbox" id="readmore" class="read-more" />
           <div class="row inner">
-              <div class="col-md-6 bottom-section-head">
+              <div class="col-12 bottom-section-head">
                   <h2>Featured Speakers</h2>
                   <hr>
               </div>
@@ -198,7 +237,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
 
   <section class="patners">
       <div class="row">
-        <div class="col-md-6 bottom-section-head">
+        <div class="col-md-6 bottom-partner-head">
             <h2>Partners</h2>
             <hr>
         </div>
