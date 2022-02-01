@@ -1,9 +1,9 @@
 .top-section {
- background-image: url("../../images/3.jpeg");
- background-repeat: no-repeat;
- width: 100%;
- height: inherit;
- padding-bottom: 30px;
+  background-image: url("../../images/3.jpeg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: inherit;
+  padding-bottom: 30px;
 }
 
 #mynav {
@@ -26,21 +26,20 @@
   padding-right: 30px;
 }
 
- header {
-   padding-top: 40px;
+header {
+  padding-top: 40px;
  }
 
 .header-text-a {
   font-size: 20px;
-  font-weight: bold 600;
+  font-weight: bold;
   line-height: 32px;
   color: #ec5242;
-  color: linear-gradient(45deg, #ec5242, #af4261)
-}
+  }
 
 .header-text-b {
   font-size: 35px;
-  font-weight: bolder 900;
+  font-weight: bolder;
   line-height: 50px;
   color: #ec5242;
 }
@@ -58,7 +57,7 @@
 
 .header-text-d {
   font-size: 27px;
-  font-weight: bolder 900;
+  font-weight: bolder;
   color: #42526e;
 }
 
@@ -222,17 +221,17 @@ label:after {
   content: "more";
 }
 
-input:checked~label:after {
+input:checked ~ label:after {
   content: "less";
 }
 
 .inner {
   max-height: 400px;
   overflow: hidden;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
-input:checked+.inner {
+input:checked + .inner {
   max-height: inherit;
 }
 

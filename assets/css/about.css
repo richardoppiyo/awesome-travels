@@ -32,7 +32,7 @@
 header {
   padding-top: 40px;
   text-align: center;
- }
+}
 
 .header-text-a {
   font-size: 20px;
@@ -78,13 +78,13 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-
 }
 
 .middle-section-head h2 {
   font-size: 30px;
-  font-weight: bold 600;
+  font-weight: bold;
   line-height: 32px;
+  margin-top: 50px;
 }
 
 .top-program-1 {
@@ -108,10 +108,6 @@ header {
 .top-program-2 img {
   height: inherit;
   background-color: #fff;
-}
-
-.middle-section-head h2 {
-  margin-top: 50px;
 }
 
 .middle-section-head hr {
