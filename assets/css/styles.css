@@ -217,10 +217,6 @@ label {
   margin-top: 20px;
 }
 
-label:after {
-  content: "more";
-}
-
 .inner {
   max-height: 400px;
   overflow: hidden;
