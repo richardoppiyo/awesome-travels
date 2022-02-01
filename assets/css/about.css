@@ -156,6 +156,7 @@
 
 .bottom-section-head h2 {
   margin-top: 50px;
+  color: #fff;
 }
 
 .bottom-section-head hr {
@@ -261,7 +262,7 @@ input:checked+.inner {
 }
 
 .patners {
-  background-color: #a9a9a9;
+  background-color: #000;
   height: 400px;
 }
 
@@ -293,4 +294,9 @@ footer {
   align-items: center;
   width 85%;
   margin: 20px auto;
+}
+
+
+#hide {
+  display: none;
 }

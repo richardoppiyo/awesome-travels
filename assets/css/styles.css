@@ -75,7 +75,8 @@
 }
 
 .middle-section {
-  background-color: #a9a9a9;
+  /* background-color: #a9a9a9; */
+  background-image: url("../../images/program-bg.jpg");
 }
 
 .middle-section-head {
@@ -87,6 +88,7 @@
 
 .middle-section-head h2 {
   margin-top: 50px;
+  color: #fff;
 }
 
 .middle-section-head hr {
@@ -151,6 +153,7 @@
 
 .bottom-section-head h2 {
   margin-top: 50px;
+  color: #fff;
 }
 
 .bottom-section-head hr {
@@ -260,13 +263,16 @@ input:checked+.inner {
 }
 
 .patners {
-  background-color: #a9a9a9;
+  background-color: #000;
+  opacity: 1;
   height: 400px;
 }
 
 .footer-img {
   width: 70px;
   height: 60px;
+  /* font-size: 150px; */
+  /* background-color: blue; */
 }
 
 .foot {
@@ -292,4 +298,8 @@ footer {
   align-items: center;
   width 85%;
   margin: 20px auto;
+}
+
+#hide {
+  display: none;
 }
