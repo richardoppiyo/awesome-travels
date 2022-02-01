@@ -221,10 +221,6 @@ label:after {
   content: "more";
 }
 
-.read-more::checked ~ .show-more::after {
-  content: "less";
-}
-
 .inner {
   max-height: 400px;
   overflow: hidden;
