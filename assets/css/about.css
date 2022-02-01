@@ -273,10 +273,9 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width 85%;
+  width: 85%;
   margin: 20px auto;
 }
-
 
 #hide {
   display: none;
