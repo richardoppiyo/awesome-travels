@@ -25,12 +25,12 @@
   padding-left: 30px;
   padding-right: 30px;
 }
+
  header {
    padding-top: 40px;
  }
 
 .header-text-a {
-  /* font-family: 'Lato', sans-serif; */
   font-size: 20px;
   font-weight: bold 600;
   line-height: 32px;
@@ -39,9 +39,6 @@
 }
 
 .header-text-b {
-  /* font-family: 'Lato', sans-serif; */
-  /* font-style: normal; */
-  /* font-weight: normal; */
   font-size: 35px;
   font-weight: bolder 900;
   line-height: 50px;
@@ -49,14 +46,11 @@
 }
 
 .header-tect-c-div {
-  border: 3px solid red;
+  border: 3px solid #ec5242;
   margin: 10px;
 }
 
 .header-text-c {
-  /* font-family: 'Lato', sans-serif; */
-  /* font-style: normal; */
-  /* font-weight: normal; */
   font-size: 15px;
   line-height: 20px;
   padding: 10px;
@@ -70,12 +64,10 @@
 
 .header-text-e {
   font-size: 18px;
-  /* font-weight: bolder 900; */
   color: #42526e;
 }
 
 .middle-section {
-  /* background-color: #a9a9a9; */
   background-image: url("../../images/program-bg.jpg");
 }
 
@@ -100,7 +92,6 @@
 .top-program-1 {
   display: flex;
   flex-direction: row;
-  /* background-color: blue */
 }
 
 .top-program {
@@ -109,7 +100,6 @@
   justify-content: center;
   align-items: center;
   margin: 15px;
-  /* width: 50%; */
 }
 
 .top-program img {
@@ -130,7 +120,6 @@
 }
 
 .top-program-2 p {
-  /* padding: 20px 15px; */
   color: #fff;
 }
 
@@ -218,7 +207,6 @@ input[type="checkbox"] {
 }
 
 label {
-  /* color: blue; */
   background-color: #ec5242;
   text-decoration: underline;
   margin-top: 10px;
@@ -232,19 +220,16 @@ label {
 
 label:after {
   content: "more";
-  /* background-color: #ec5242; */
 }
 
 input:checked~label:after {
   content: "less";
-  /* background-color: #ec5242; */
 }
 
 .inner {
   max-height: 400px;
   overflow: hidden;
   transition: all .3s ease;
-  /* width: 100px; */
 }
 
 input:checked+.inner {
@@ -257,7 +242,6 @@ input:checked+.inner {
 
 .show-more {
   border-radius: 0;
-  /* background-color: #ec5242; */
   text-align: center;
   width: 100%;
 }
@@ -271,12 +255,9 @@ input:checked+.inner {
 .footer-img {
   width: 70px;
   height: 60px;
-  /* font-size: 150px; */
-  /* background-color: blue; */
 }
 
 .foot {
-  /* margin: 5px; */
   text-align: center;
 }
 
@@ -287,7 +268,6 @@ input:checked+.inner {
 
 .footb {
   margin: 50px 5px 10px 5px;
-  /* text-align: right; */
 }
 
 /* footer section */
