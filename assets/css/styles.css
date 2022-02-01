@@ -164,7 +164,7 @@ header {
     display: flex !important;
     flex-direction: row;
     justify-content: flex-end;
-    /* padding-right: 50px; */
+    padding-right: 20px;
   }
 
   .inside-desktop-nav ul > * {
@@ -406,6 +406,10 @@ input:checked + .inner {
 
   .bottom-partner-head {
     width: 100%;
+  }
+
+  .outer-bottom-partner-head {
+    margin: 0;
   }
 }
 

@@ -1,5 +1,6 @@
 const btn = document.querySelector('#show');
 const btnclose = document.querySelector('#hide');
+const showMoreBtn = document.querySelector('#showmore');
 
 // To open the menu bar
 function display() {
@@ -14,5 +15,15 @@ function close() {
   document.getElementById('hide').style.display = 'none';
 }
 
+function toggle() {
+  var button = document.getElementById('showmore');
+  if (button.innerHTML == "LESS") {
+    button.innerHTML = "MORE";
+  } else {
+    button.innerHTML = "LESS";
+  }
+}
+
 btn.addEventListener('click', display);
 btnclose.addEventListener('click', close);
+showMoreBtn.addEventListener('click', toggle);
