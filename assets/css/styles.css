@@ -221,7 +221,7 @@ label:after {
   content: "more";
 }
 
-.read-more:checked ~ .show-more:after {
+.read-more::checked ~ .show-more::after {
   content: "less";
 }
 
