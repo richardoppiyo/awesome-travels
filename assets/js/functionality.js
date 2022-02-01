@@ -4,7 +4,6 @@ const showMoreBtn = document.querySelector('#showmore');
 
 // To open the menu bar
 function display() {
-  console.log(btn);
   document.getElementById('show').style.display = 'none';
   document.getElementById('hide').style.display = 'flex';
 }
@@ -16,11 +15,11 @@ function close() {
 }
 
 function toggle() {
-  var button = document.getElementById('showmore');
-  if (button.innerHTML == "LESS") {
-    button.innerHTML = "MORE";
+  const button = document.getElementById('showmore');
+  if (button.innerHTML === 'LESS') {
+    button.innerHTML = 'MORE';
   } else {
-    button.innerHTML = "LESS";
+    button.innerHTML = 'LESS';
   }
 }
 

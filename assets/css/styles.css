@@ -394,9 +394,10 @@ input:checked + .inner {
     background-color: #none;
     text-align: center;
     width: 30%;
+    color: #fff;
   }
 
-  #desktop-middle-section-btn  a {inner-middle-section-containe
+  #desktop-middle-section-btn  a {
     color: #fff;
   }
 
