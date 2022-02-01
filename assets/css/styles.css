@@ -391,7 +391,6 @@ input:checked + .inner {
   #desktop-middle-section-btn {
     display: flex;
     margin: 20px auto;
-    background-color: none;
     text-align: center;
     width: 30%;
     color: #fff;

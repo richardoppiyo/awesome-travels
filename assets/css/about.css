@@ -106,7 +106,7 @@ header {
   }
 
   .social-nav > * {
-    margin: 10px
+    margin: 10px;
     text-decoration: none;
     color: #fff;
   }
@@ -393,7 +393,6 @@ header {
   #desktop-middle-section-btn {
     display: flex;
     margin: 20px auto;
-    background-color: none;
     text-align: center;
     width: 30%;
   }
