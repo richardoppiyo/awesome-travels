@@ -19,6 +19,45 @@
   <body>
 
   <section class="top-section">
+    <section class="desktop-nav">
+      <section class="social-nav">
+        <a href="#"><i class="fab fa-twitter social"></i></a>
+        <a href="#"><i class="fab fa-linkedin social"></i></a>
+        <a href="#">Logout</a>
+        <a href="#">Mypage</a>
+        <a href="#">Korean</a>
+      </section>
+      <section class="desktop-custom-nav">
+        <nav class="navbar navbar-expand-md navbar-light bg-light ml-auto">
+              <a class="navbar-brand custom-nav-brand" href="./index.html">
+                <img src="./images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                AweSome Travels
+              </a>
+              <div class="collapse navbar-collapse inside-desktop-nav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Program</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Join</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sponsor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item special-list">
+                    <a class="nav-link" href="#">CC Campaign</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+      </section>
+    </section>
     <nav class="navbar navbar-expand-lg navbar-light custom-nav">
       <button id="show" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
         <span class="navbar-toggler-icon"></span>
@@ -26,11 +65,13 @@
       <button id="hide" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
         <img src="./images/iconcancel.png" alt="">
       </button>
-
         <div class="collapse navbar-collapse" id="mynav">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Program</a>
@@ -48,7 +89,7 @@
         </div>
       </nav>
 
-      <header class="container-fluid">
+      <header class="container-fluid desktop-head">
         <div class="container">
             <div class="row">
                 <div class="col upper-head">
@@ -63,12 +104,13 @@
               <div class="row header-tect-c-div">
                   <div class="col">
                     <p class="header-text-c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboruLorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
                   </div>
               </div>
               <div class="row">
                   <div class="col">
-                    <p class="header-text-e">Please contact us per email for further questions about awesome travel agency <br> xyz@gmail.com</p>
+                    <p class="header-text-e">Please contact us per email for further questions about awesome travel agency <br> <strong>xyz@gmail.com</strong></p>
                   </div>
                </div>
           </div>
@@ -82,7 +124,8 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
     </div>
 
     <div class="top-program-1">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitiaLorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia</p>
     </div>
 
     <div class="top-program-2">
@@ -90,7 +133,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
     </div>
   </section>
 
-  <section class="middle-section">
+  <!-- <section class="middle-section">
     <div class="middle-section-head">
         <h2>See the past <br>CC Global Summit</h2>
         <hr>
@@ -112,70 +155,68 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
        <h4>2017</h4>
        <p>cc Global Summit in Buenos Aires</p>
     </div>
+  </section> -->
+
+  <section class="middle-section">
+    <div class="middle-section-head">
+        <h2>See the past <br>CC Global Summit</h2>
+        <hr>
+    </div>
+      <div class="col top-program-1">
+        <p>Take a look at the last two global summits for demo</p>
+      </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-2 top-program-2b">
+         <h4>2015</h4>
+         <p>cc Global Summit in Buenos Aires</p>
+      </div>
+      <div class="col-sm-6 col-md-2 top-program-2b">
+         <h4>2016</h4>
+         <p>cc Global Summit in Buenos Aires</p>
+      </div>
+      <div class="col-sm-6 col-md-2 top-program-2b">
+         <h4>2017</h4>
+         <p>cc Global Summit in Buens Aires</p>
+      </div>
+      <div class="col-sm-6 col-md-2 top-program-2b">
+         <h4>2018</h4>
+         <p>cc Global Summit in Buenos Aires</p>
+      </div>
+    </div>
+
   </section>
 
+
+
   <section class="patners">
-      <div class="row">
-        <div class="col-md-6 bottom-section-head">
+      <div class="row outer-bottom-partner-head">
+        <div class="col-md-6 bottom-partner-head">
             <h2>Partners</h2>
             <hr>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="row">
-            <div class="col foot">
+          <div class="row footer-container">
+            <div class="col col-md-1 foot">
               <img class="footer-img" src="./images/partner/airbnb.png" alt="">
             </div>
-            <div class="col foot">
+            <div class="col col-md-2 foot">
               <img class="footer-img" src="./images/partner/mozilla.png" alt="">
             </div>
-            <div class="col foot">
+            <div class="col col-md-2 foot">
               <img class="footer-img" src="./images/partner/Google.png" alt="">
             </div>
-          </div>
-          <div class="row">
-            <div class="col foota">
+            <div class="col col-md-2 foota">
               <img class="footer-img" src="./images/partner/airbnb.png" alt="">
             </div>
-            <div class="col footb">
+            <div class="col col-md-2 footb">
               <img class="footer-img" src="./images/partner/navar.png" alt="">
             </div>
           </div>
         </div>
      </div>
   </section>
-  <!-- <section class="patners">
-      <div class="row">
-        <div class="col-md-6 bottom-section-head">
-            <h2>Partners</h2>
-            <hr>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="row">
-            <div class="col foot">
-              <img class="footer-img" src="./images/google.jpeg" alt="">
-            </div>
-            <div class="col foot">
-              <img class="footer-img" src="./images/google.jpeg" alt="">
-            </div>
-            <div class="col foot">
-              <img class="footer-img" src="./images/google.jpeg" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col foota">
-              <img class="footer-img" src="./images/google.jpeg" alt="">
-            </div>
-            <div class="col footb">
-              <img class="footer-img" src="./images/google.jpeg" alt="">
-            </div>
-          </div>
-        </div>
-     </div>
-  </section> -->
   <footer>
     <div class="footer-img">
        <img class="footer-img" src="./images/logo.png" alt="logo">
@@ -184,8 +225,6 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laboru </p>
         <p>2015 awesome travels Inc</p>
     </div>
   </footer>
-
-
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="./assets/js/functionality.js" charset="utf-8"></script>
