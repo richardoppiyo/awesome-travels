@@ -1,3 +1,19 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+:root {
+  --font-family-lato: "Lato", sans-serif;
+  --font-family-coco: "COCOGOOSE", sans-serif;
+  --main-orange-color: #ec5242;
+  --main-dark-color: #272a31;
+  --main-gray-color: #d3d3d3;
+}
+
+body {
+  font-family: var(--font-family-lato);
+  color: var(--main-dark-color);
+}
+
 .top-section {
   background-image: url("../../images/3.jpeg");
   background-repeat: no-repeat;
@@ -38,14 +54,15 @@ header {
   font-size: 20px;
   font-weight: bold;
   line-height: 32px;
-  color: #ec5242;
+  color: var(--main-orange-color);
 }
 
 .header-text-b {
   font-size: 35px;
   font-weight: bolder;
   line-height: 50px;
-  color: #ec5242;
+  color: var(--main-orange-color);
+  font-family: var(--font-family-coco);
 }
 
 .header-tect-c-div {
@@ -357,6 +374,11 @@ input:checked + .inner {
     padding-left: 20px;
   }
 
+  .inner {
+    max-height: 800px;
+    overflow: show;
+  }
+
   .inner-middle-section-container {
     text-align: center;
     margin: auto;
@@ -400,7 +422,7 @@ input:checked + .inner {
     color: #fff;
   }
 
-  .show-more {
+  #showmore {
     display: none;
   }
 
@@ -440,5 +462,11 @@ footer {
     margin: 40px auto;
     width: 95%;
     margin-left: 60px;
+  }
+
+  #dyna-bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
   }
 }
