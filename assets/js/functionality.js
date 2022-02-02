@@ -78,6 +78,6 @@ featuredSpeakers.forEach((item) => {
                         <hr>
                         <p>${item.notes}</p>
                       </div>
-                    </div>`
+                    </div>`;
   featuredSpeakersSect.innerHTML += content;
 });
