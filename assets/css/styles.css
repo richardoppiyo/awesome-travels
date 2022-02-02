@@ -89,6 +89,8 @@ header {
 
 .middle-section {
   background-image: url("../../images/program-bg.jpg");
+  text-align: center;
+  /* margin: 0 auto; */
 }
 
 .middle-section-head {
@@ -104,7 +106,7 @@ header {
 }
 
 .middle-section-head hr {
-  width: 30%;
+  width: 12%;
   color: #ec5242;
   margin: 15px auto;
 }
@@ -374,14 +376,20 @@ input:checked + .inner {
     padding-left: 20px;
   }
 
+  .middle-section-head {
+    margin: 0;
+    padding: 0;
+  }
+
   .inner {
     max-height: 800px;
   }
 
   .inner-middle-section-container {
     text-align: center;
-    margin: auto;
-    padding-left: 40px;
+    /* margin: auto; */
+    /* padding-left: 40px; */
+    margin-left: 100px;
   }
 
   .top-program {
@@ -396,7 +404,7 @@ input:checked + .inner {
     flex-direction: column;
     justify-content: center;
     column-gap: 20px;
-    margin: 3px;
+    margin: 50px 3px;
     padding: 20px;
   }
 
@@ -411,7 +419,9 @@ input:checked + .inner {
 
   #desktop-middle-section-btn {
     display: flex;
-    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    margin: 20px auto 50px auto;
     text-align: center;
     width: 30%;
     color: #fff;

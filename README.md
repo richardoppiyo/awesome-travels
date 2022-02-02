@@ -29,6 +29,9 @@
 
 [Presentation video of the website]https://www.loom.com/share/a0dc6fdbbe1b40c7a28c74b23b49134e
 
+
+[View Live]https://richardoppiyo.github.io/awesome-travels/
+
 ## To show your support, kindly
 
 Give a ⭐️ if you like this project!
