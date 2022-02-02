@@ -31,37 +31,37 @@ showMoreBtn.addEventListener('click', toggle);
 const featuredSpeakers = [
   {
     name: 'Yochai Benkler',
-    description: 'Havard Professor at Havard Technical College of Education',
+    description: 'Professor at Havard College of Tourism',
     notes: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia',
     image: './images/speakers/speaker-1.png',
   },
   {
     name: 'Kamau Mwangi',
-    description: 'SVCET Professor at SVCET Technical College of Education',
+    description: 'The Managing Director, Travelport Services',
     notes: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia',
     image: './images/speakers/speaker-2.png',
   },
   {
     name: 'Wachira Waruru',
-    description: 'VIT Professor at VIT Technical College of Education',
+    description: 'Independent Travel Consultant',
     notes: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia',
     image: './images/speakers/speaker-3.png',
   },
   {
     name: 'Robert Bonse',
-    description: 'TUK Professor at TUK Technical College of Education',
+    description: 'The CEO, Kenya Airways Company',
     notes: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia',
     image: './images/speakers/speaker-4.png',
   },
   {
     name: 'Kiplagat Kipchoge',
-    description: 'UON Professor at UON Technical College of Education',
+    description: 'Minister of Tourism, Seychelles',
     notes: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia',
     image: './images/speakers/speaker-5.png',
   },
   {
     name: 'Shreshta Nitu',
-    description: 'KU Professor at KU Technical College of Education',
+    description: 'President, Travel for Exploration Foundation',
     notes: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia',
     image: './images/speakers/speaker-6.png',
   },
