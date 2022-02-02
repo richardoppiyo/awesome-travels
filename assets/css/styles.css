@@ -90,7 +90,6 @@ header {
 .middle-section {
   background-image: url("../../images/program-bg.jpg");
   text-align: center;
-  /* margin: 0 auto; */
 }
 
 .middle-section-head {
@@ -387,8 +386,6 @@ input:checked + .inner {
 
   .inner-middle-section-container {
     text-align: center;
-    /* margin: auto; */
-    /* padding-left: 40px; */
     margin-left: 100px;
   }
 
