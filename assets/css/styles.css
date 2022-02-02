@@ -376,7 +376,6 @@ input:checked + .inner {
 
   .inner {
     max-height: 800px;
-    overflow: show;
   }
 
   .inner-middle-section-container {
